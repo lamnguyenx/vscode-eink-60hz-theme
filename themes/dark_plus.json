@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Dark+ Contrast EINK 60HZ",
+	"name": "Eink 60Hz",
 	"colors": {
 		"activityBar.activeBackground": "#c6fd00",
 		"activityBar.activeBorder": "#c6fd00",
@@ -64,6 +64,10 @@
 		"terminal.findMatchHighlightBackground": "#c6fd006a",
 		"terminal.findMatchHighlightBorder": "#c6fd006a",
 		"titleBar.activeForeground": "#77ccfa",
+		"terminal.foreground": "#FFFFFF",
+		"button.background": "#00000000",
+		"button.border": "#FFFFFF4f",
+		"button.separator": "#FFFFFF4f",
 	},
 	"tokenColors": [
 		{
@@ -98,7 +102,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#7ca668"
+				"foreground": "#5a8a4a"
 			}
 		},
 		{
@@ -213,7 +217,7 @@
 		{
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#b07050"
 			}
 		},
 		{
@@ -240,7 +244,7 @@
 		{
 			"scope": "meta.preprocessor.string",
 			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#b07050"
 			}
 		},
 		{
@@ -276,25 +280,25 @@
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#b07050"
 			}
 		},
 		{
 			"scope": "string.tag",
 			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#b07050"
 			}
 		},
 		{
 			"scope": "string.value",
 			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#b07050"
 			}
 		},
 		{
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#d16969"
+				"foreground": "#b05050"
 			}
 		},
 		{
@@ -595,9 +599,26 @@
 			}
 		},
 		{
-			"scope": "markup.changed.diff",
+			"scope": [
+				"markup.changed",
+				"markup.changed.diff"
+			],
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"markup.underline.link",
+				"markup.underline.link.markdown",
+				"markup.underline.link.image.markdown",
+				"meta.link.inline.markdown",
+				"meta.link.reference.markdown",
+				"string.other.link.title.markdown",
+				"string.other.link.description.markdown"
+			],
+			"settings": {
+				"fontStyle": "underline"
 			}
 		},
 		{
@@ -609,13 +630,13 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold italic underline"
 			}
 		},
 		{
 			"scope": "storage.type",
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold italic underline"
 			}
 		},
 		{
@@ -881,7 +902,7 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"newOperator": "#FFFFFF",
-		"stringLiteral": "#ce9178",
+		"stringLiteral": "#b07050",
 		"customLiteral": "#DCDCAA",
 		"numberLiteral": "#b5cea8",
 		"*.declaration": {

@@ -1,0 +1,208 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "--- comment ---",
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#436a36"
+                }
+            },
+            {
+                "name": "--- string ---",
+                "scope": "string",
+                "settings": {
+                    "foreground": "#925a3f"
+                }
+            },
+            {
+                "name": "--- regex string ---",
+                "scope": "string.regexp",
+                "settings": {
+                    "foreground": "#b05050"
+                }
+            },
+            {
+                "name": "--- constant (numbers, etc) ---",
+                "scope": [
+                    "constant.numeric",
+                    "constant.other.color.rgb-value",
+                    "constant.other.rgb-value",
+                    "support.constant.color"
+                ],
+                "settings": {
+                    "foreground": "#b5cea8"
+                }
+            },
+            {
+                "name": "--- constant (language) ---",
+                "scope": "constant.language",
+                "settings": {
+                    "foreground": "#569cd6"
+                }
+            },
+            {
+                "name": "--- keyword ---",
+                "scope": [
+                    "keyword",
+                    "keyword.control"
+                ],
+                "settings": {
+                    "foreground": "#569cd6"
+                }
+            },
+            {
+                "name": "--- keyword operator ---",
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#784444"
+                }
+            },
+            {
+                "name": "--- storage (def, class, struct...) ---",
+                "scope": [
+                    "storage",
+                    "storage.type",
+                    "storage.modifier"
+                ],
+                "settings": {
+                    "foreground": "#569cd6"
+                }
+            },
+            {
+                "name": "--- variable ---",
+                "scope": [
+                    "variable",
+                    "meta.definition.variable.name",
+                    "support.variable"
+                ],
+                "settings": {
+                    "foreground": "#9CDCFE"
+                }
+            },
+            {
+                "name": "--- variable language (this, self, super) ---",
+                "scope": [
+                    "variable.language",
+                    "variable.language.this",
+                    "variable.language.self",
+                    "variable.language.super"
+                ],
+                "settings": {
+                    "foreground": "#376c97"
+                }
+            },
+            {
+                "name": "--- support function ---",
+                "scope": [
+                    "entity.name.function",
+                    "support.function",
+                    "support.constant.handlebars"
+                ],
+                "settings": {
+                    "foreground": "#a5a574"
+                }
+            },
+            {
+                "name": "--- support type ---",
+                "scope": [
+                    "support.class",
+                    "support.type",
+                    "entity.name.type",
+                    "entity.name.namespace",
+                    "entity.name.class"
+                ],
+                "settings": {
+                    "foreground": "#1b6355"
+                }
+            },
+            {
+                "name": "--- entity tag ---",
+                "scope": [
+                    "entity.name.tag",
+                    "entity.name.tag.css",
+                    "entity.name.tag.less"
+                ],
+                "settings": {
+                    "foreground": "#569cd6"
+                }
+            },
+            {
+                "name": "--- entity attribute ---",
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "foreground": "#9cdcfe"
+                }
+            },
+            {
+                "name": "--- markup heading ---",
+                "scope": "markup.heading",
+                "settings": {
+                    "foreground": "#6796e6"
+                }
+            },
+            {
+                "name": "--- markup inserted ---",
+                "scope": "markup.inserted",
+                "settings": {
+                    "foreground": "#b5cea8"
+                }
+            },
+            {
+                "name": "--- markup deleted ---",
+                "scope": "markup.deleted",
+                "settings": {
+                    "foreground": "#b07050"
+                }
+            },
+            {
+                "name": "--- markup changed ---",
+                "scope": "markup.changed",
+                "settings": {
+                    "foreground": "#569cd6"
+                }
+            },
+            {
+                "name": "--- invalid ---",
+                "scope": "invalid",
+                "settings": {
+                    "foreground": "#f44747"
+                }
+            },
+            {
+                "name": "=== bold all keywords ===",
+                "scope": [
+                    "keyword",
+                    "keyword.control",
+                    "keyword.operator.word",
+                    "keyword.operator.new",
+                    "keyword.operator.expression",
+                    "keyword.operator.logical",
+                    "storage.type",
+                    "storage.modifier"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "name": "=== declaration keywords (def, class...) ===",
+                "scope": "storage.type",
+                "settings": {
+                    "fontStyle": "bold italic underline"
+                }
+            },
+            // PYTHON
+            {
+                "name": "--- method/function calls ---",
+                "scope": [
+                    "meta.function-call",
+                    "meta.member.access"
+                ],
+                "settings": {
+                    "foreground": "#878754"
+                }
+            },
+        ]
+    }
+}

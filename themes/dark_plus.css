@@ -1,0 +1,47 @@
+.linux,
+.mac {
+  font-family: Consolas !important;
+}
+.folder-icon {
+  font-weight: bold !important;
+}
+.monaco-inputbox {
+  width: 100% !important;
+}
+.explorer-folders-view {
+  font-family: Consolas;
+  font-size: 14px;
+}
+.monaco-button-dropdown-separator > div {
+  opacity: 0;
+}
+.monaco-list-row[aria-label="Staged Changes"] .monaco-tl-contents {
+  background-color: #74916b !important;
+  color: black !important;
+}
+.monaco-list-row[aria-label="Changes"] .monaco-tl-contents {
+  background-color: #7b7857 !important;
+  color: black !important;
+}
+.output img {
+  background-color: white !important;
+}
+.__submodules__-name-dir-icon,
+.__submodules__-name-dir-icon,
+.__submodules_heavy__-name-dir-icon,
+.__submodules_heavy__-name-dir-icon {
+  color: white !important;
+  background: rgba(100, 185, 9, 0.33) !important;
+}
+.__submodules__-name-dir-icon:after,
+.__submodules__-name-dir-icon:after,
+.__submodules_heavy__-name-dir-icon:after,
+.__submodules_heavy__-name-dir-icon:after {
+  color: white !important;
+}
+iframe * {
+  color: red !important;
+}
+.terminal.xterm {
+  padding-left: 15px !important;
+}
