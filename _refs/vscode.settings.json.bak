@@ -1,0 +1,400 @@
+{
+    "editor.fontFamily": "Consolas Nerd Font",
+    "editor.lineHeight": 1.5,
+    "terminal.integrated.fontFamily": "Consolas Nerd Font",
+    "window.title": "${dirty} \ud83c\udf49 - ${rootName} - ${folderName}",
+    "editor.minimap.enabled": false,
+    "python.terminal.activateEnvironment": false,
+    "editor.fontWeight": "200",
+    "workbench.editor.labelFormat": "short",
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "indent",
+    "python.terminal.executeInFileDir": true,
+    "workbench.tree.indent": 20,
+    "files.associations": {
+        "*.uml": "plantuml",
+        "*.config": "shellscript",
+        "*.conf": "ssh_config",
+        "*.csv": "log",
+        "*.txt": "log",
+        "README": "log",
+        ".env": "shellscript",
+        "segroups2": "yaml",
+        "segments2": "yaml",
+        "subsegments2": "yaml",
+        "segments3": "yaml",
+        "subsegments3": "yaml",
+        "walignments": "yaml",
+        "reco2notes": "yaml",
+        "*.labeled": "yaml",
+        "segments2-labeled": "yaml",
+        "segments2_labeled": "yaml",
+        "segments2_clustered": "yaml",
+        "reco2utt2intnum": "yaml",
+        "subsegments2_clustered": "yaml",
+        "clusters": "yaml",
+        "reco2walignments": "yaml",
+        "utt2notes": "yaml",
+        "utt2vmos": "yaml",
+        "wrealignments": "yaml",
+        "*.service": "ini",
+        "*.drawio": "xml",
+        "*.markmap.md": "markdown",
+        ".bash_proxy": "shellscript"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.files.associations": {
+        "*.markmap.md": "../../icons/markmap"
+    },
+    "explorer.autoReveal": false,
+    "files.eol": "\n",
+    "files.enableTrash": false,
+    "breadcrumbs.enabled": true,
+    "files.autoSave": "off",
+    "files.watcherExclude": {
+        "**/exp*/**": true,
+        "**/*__audio__*/**": true,
+        "**/*__raw__*/**": true,
+        "**/*__subsets__*/**": true,
+        "**/*__refs__*/**": true,
+        "**/*__media__*/**": true,
+        "**/*__pycache__*/**": true,
+        "**/*data_sets*/**": true
+    },
+    "search.exclude": {
+        "**/exp*/**": true,
+        "**/*__audio__*/**": true,
+        "**/*__raw__*/**": true,
+        "**/*__refs__*/**": true,
+        "**/*__subsets__*/**": true,
+        "**/*__media__*/**": true,
+        "**/*data_sets*/**": true,
+        "**/*__pycache__*/**": true
+    },
+    "files.exclude": {
+        "**/*__audio__*/**": true,
+        "**/*__pycache__*/**": true
+    },
+    "editor.renderWhitespace": "all",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.statusBar.visible": true,
+    "workbench.startupEditor": "none",
+    "python.formatting.autopep8Args": [
+        "--max-line-length 300"
+    ],
+    "docker.containers.sortBy": "CreatedTime",
+    "editor.autoIndent": "advanced",
+    "workbench.sideBar.location": "left",
+    "clock.alignment": "Right",
+    "git.terminalAuthentication": false,
+    "terminal.integrated.allowChords": false,
+    "compareFolders.diffViewTitle": "compared path",
+    "activitusbar.views": [
+        {
+            "name": "explorer",
+            "codicon": "files"
+        },
+        {
+            "name": "search",
+            "codicon": "search"
+        },
+        {
+            "name": "scm",
+            "codicon": "source-control"
+        },
+        {
+            "name": "debug",
+            "codicon": "debug-alt"
+        },
+        {
+            "name": "extensions",
+            "codicon": "extensions"
+        }
+    ],
+    "docker.images.label": "FullTag",
+    "docker.images.groupBy": "FullTag",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorCustomizations": {},
+    "terminal.integrated.colorCustomizations": {
+        "terminal.foreground": "#FFFFFF"
+    },
+    "highlight.regexes": {
+        "(\\{\\w+\\})": {
+            "regexFlags": "g",
+            "filterLanguageRegex": "python",
+            "filterFileRegex": ".*\\.py",
+            "decorations": [
+                {
+                    "color": "#fff"
+                }
+            ]
+        },
+        "(\\<\\w+\\>)": {
+            "regexFlags": "g",
+            "filterLanguageRegex": "YAML",
+            "filterFileRegex": ".*\\.y*ml",
+            "decorations": [
+                {
+                    "color": "#fff"
+                }
+            ]
+        }
+    },
+    "workbench.editorAssociations": {
+        "*.pdf": "pdf.preview",
+        "*.ipynb": "jupyter-notebook",
+        "*.wav": "wavPreview.audioPreview",
+        "*.md": "default",
+        "*.markmap.md": "markmap-vscode.markmap",
+        "*.csv": "csv.editor",
+        "*.tsv": "default",
+        "*.xlsx": "default",
+        "*.xls": "default",
+        "*.xltx": "default",
+        "*.xlt": "default",
+        "*.docx": "cweijan.officeViewer",
+        "*.doc": "default",
+        "*.dot": "default",
+        "*.dotx": "default",
+        "*.rtf": "default"
+    },
+    "notebook.displayOrder": [
+        "image/png (built-in)"
+    ],
+    "notebook.lineNumbers": "on",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "terminal.integrated.inheritEnv": false,
+    "indenticator.inner.showIndentGuide": true,
+    "indenticator.inner.style": "outset",
+    "python.linting.enabled": false,
+    "python.linting.lintOnSave": false,
+    "hediet.vscode-drawio.codeLinkActivated": true,
+    "editor.guides.indentation": true,
+    "python.analysis.typeCheckingMode": "off",
+    "git.detectSubmodulesLimit": 40,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "ruff.args": [
+        "--ignore=E",
+        "--per-file-ignores=__init__.py:F401"
+    ],
+    "telemetry.telemetryLevel": "off",
+    "ruff.organizeImports": false,
+    "ruff.importStrategy": "fromEnvironment",
+    "python.envFile": "${workspaceFolder}/.pyenv",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.wrapTabs": true,
+    "jupyter.askForKernelRestart": false,
+    "explorer.confirmDragAndDrop": false,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "files.participants.timeout": -1,
+    "files.trimTrailingWhitespace": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "scm.showHistoryGraph": false,
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "java.format.settings.profile": "GoogleStyle",
+    "[java]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "google-java-format.executable-path": "/root/.local/bin/google-java-format",
+    "explorer.openEditors.visible": 3,
+    "git.openRepositoryInParentFolders": "always",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "remote.autoForwardPortsSource": "process",
+    "python.analysis.autoImportUserSymbols": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "diffEditor.ignoreTrimWhitespace": true
+    },
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "scm.defaultViewMode": "tree",
+    "scm.repositories.visible": 20,
+    "scm.autoReveal": true,
+    "scm.diffDecorations": "all",
+    "scm.alwaysShowRepositories": true,
+    "scm.repositories.sortOrder": "path",
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "yaml.schemas": {
+        "file:///root/.local/share/code-server/extensions/continue.continue-1.3.1/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.experimental.showMoves": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "customvscodeuicss.css": ".linux,\n.mac {\n  font-family: Consolas !important;\n}\n.folder-icon {\n  font-weight: bold !important;\n}\n.monaco-inputbox {\n  width: 100% !important;\n}\n.explorer-folders-view {\n  font-family: Consolas;\n  font-size: 14px;\n}\n.monaco-button-dropdown-separator > div {\n  opacity: 0;\n}\n.monaco-list-row[aria-label=\"Staged Changes\"] .monaco-tl-contents {\n  background-color: #74916b !important;\n  color: black !important;\n}\n.monaco-list-row[aria-label=\"Changes\"] .monaco-tl-contents {\n  background-color: #7b7857 !important;\n  color: black !important;\n}\n.output img {\n  background-color: white !important;\n}\n.__submodules__-name-dir-icon,\n.__submodules__-name-dir-icon,\n.__submodules_heavy__-name-dir-icon,\n.__submodules_heavy__-name-dir-icon {\n  color: white !important;\n  background: rgba(100, 185, 9, 0.33) !important;\n}\n.__submodules__-name-dir-icon:after,\n.__submodules__-name-dir-icon:after,\n.__submodules_heavy__-name-dir-icon:after,\n.__submodules_heavy__-name-dir-icon:after {\n  color: white !important;\n}\niframe * {\n  color: red !important;\n}\n.terminal.xterm {\n  padding-left: 15px !important;\n}\n.editor-group-watermark .letterpress {\n  display: none !important;\n}",
+    "[svg]": {
+        "editor.defaultFormatter": "jock.svg"
+    },
+    "terminal.integrated.stickyScroll.enabled": false,
+    "editor.experimental.preferTreeSitter.css": true,
+    "vs-browser.favourites.list": {
+        "http://localhost:9070": "http://localhost:9070",
+        "http://localhost": "http://localhost"
+    },
+    "vs-browser.url": "",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[dockercompose]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "bashIde.shellcheckArguments": "--severity=error",
+    "[shellscript]": {
+        "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
+    },
+    "shfmt.executableArgs": [
+        "-i",
+        "4"
+    ],
+    "semanticdiff.closeOriginalTab": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "containers.containers.sortBy": "CreatedTime",
+    "containers.images.groupBy": "FullTag",
+    "containers.images.label": "FullTag",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "window.zoomLevel": 2.577882931182387,
+    "customWindowZoom.zoomLevelChangeValue": 1,
+    "zoombar.zoomUnit": 5,
+    "zoombar.zoomUnitType": "additive",
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "python.createEnvironment.trigger": "off",
+    "terminal.integrated.initialHint": false,
+    "hediet.vscode-drawio.resizeImages": null,
+    "makefile.configureOnOpen": true,
+    "workbench.editor.languageDetection": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "dart.devToolsLocation": {
+        "default": "beside",
+        "inspector": "sidebar"
+    },
+    "search.followSymlinks": false,
+    "remote.autoForwardPorts": false,
+    "python.languageServer": "None",
+    "documentViewer.enableMd": false,
+    "documentViewer.enableCsv": false,
+    "documentViewer.enableExcel": false,
+    "documentViewer.enableWord": false,
+    "documentViewer.enablePdf": false,
+    "remote.restoreForwardedPorts": false,
+    "vscode-color-picker.languages": [
+        "java"
+    ],
+    "remote.SSH.defaultExtensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter"
+    ],
+    "markdownViewer.scrollSync": false,
+    "markdownViewer.theme": "github-dark",
+    "material-icon-theme.activeIconPack": "bashly",
+    "markmap.defaultOptions": "{\"duration\": 0}",
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ]
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        },
+        "bash (2)": {
+            "path": "/opt/homebrew/bin/bash",
+            "args": [
+                "-l"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "bash (2)",
+    "terminal.integrated.env.osx": {
+        "BASH_SILENCE_DEPRECATION_WARNING": "1"
+    },
+    "explorer.confirmPasteNative": false,
+    "clang-format.executable": "/home/linuxbrew/.linuxbrew/opt/clang-format/bin/clang-format",
+    "statsBar.modules": [
+        "networkSpeed"
+    ],
+    "telemetry.editStats.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "chat.extensionUnification.enabled": false,
+    "chat.disableAIFeatures": true,
+    "inlineChat.askInChat": false,
+    "hediet.vscode-drawio.appearance": "dark",
+    "terminal.integrated.cursorStyle": "line",
+    "workbench.panel.defaultLocation": "right",
+    "workbench.colorTheme": "Eink 60Hz",
+    "workbench.activityBar.compact": true,
+    "workbench.tips.enabled": false,
+    "symlink-follow.autoFollow": true
+}

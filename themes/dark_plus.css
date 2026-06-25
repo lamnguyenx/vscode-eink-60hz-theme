@@ -45,3 +45,6 @@ iframe * {
 .terminal.xterm {
   padding-left: 15px !important;
 }
+.editor-group-watermark .letterpress {
+  display: none !important;
+}
