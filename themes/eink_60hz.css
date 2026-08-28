@@ -48,3 +48,12 @@ iframe * {
 .editor-group-watermark .letterpress {
   display: none !important;
 }
+.tab.active {
+  -webkit-text-stroke: 0.3px #fff !important;
+}
+.tab:not(.active) {
+  opacity: 0.2 !important;
+}
+div.terminal-xterm-host > div {
+    position: relative !important;
+}

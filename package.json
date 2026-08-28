@@ -1,21 +1,27 @@
 {
-	"name": "vscode-eink-60hz",
-	"displayName": "Eink 60Hz",
+	"name": "eink-60hz",
+	"displayName": "Eink 60Hz Theme",
 	"description": "Dark+ with black background and enhanced contrast, optimized for e-ink displays at 60Hz. Inspired by the Dark+ Contrast theme by k3a.",
 	"categories": [ "Themes" ],
-	"version": "2026.6.20-1",
+	"version": "2026.8.28",
 	"publisher": "lamnguyenx",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/lamnguyenx/vscode-eink-60hz-theme"
 	},
 	"engines": { "vscode": "*" },
-	"contributes": {
+	"icon": "icon.png",
+"contributes": {
 		"themes": [
 			{
-				"label": "Eink 60Hz",
+				"label": "Eink 60Hz (Dark)",
 				"uiTheme": "hc-black",
-				"path": "./themes/dark_plus.json"
+				"path": "./themes/eink_60hz_dark.json"
+			},
+			{
+				"label": "Eink 60Hz (Light)",
+				"uiTheme": "hc-light",
+				"path": "./themes/eink_60hz_light.json"
 			}
 		],
 		"iconThemes": [
